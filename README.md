@@ -1,16 +1,44 @@
-# React + Vite
+# Learning Path Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A system that generates personalized learning roadmaps based on a user's goal,
+current skill level, available study time, and dynamically reschedules tasks
+when days are missed.
 
-Currently, two official plugins are available:
+## Why this project?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Many learners quit because they don't know what to study next or how to
+recover when they miss days. This project focuses on creating an adaptive,
+backend-driven learning plan that adjusts without breaking the final goal.
 
-## React Compiler
+## Current Status
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Frontend prototype implemented (React + Vite)
+- Backend: Planned (Spring Boot)
+- Database: Planned (PostgreSQL / MySQL)
 
-## Expanding the ESLint configuration
+## Planned Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Personalized weekly and daily learning plans
+- Backend-driven scheduling logic
+- Dynamic rescheduling of missed tasks
+- REST APIs for plan generation and updates
+- Clean, extensible backend architecture
+
+## Tech Stack
+
+- Frontend: React (Vite)
+- Backend: Java (Spring Boot)
+- Database: PostgreSQL / MySQL
+- Version Control: Git + GitHub
+
+## Roadmap
+
+- Phase 1: Backend setup and core APIs
+- Phase 2: Scheduling and rescheduling logic
+- Phase 3: Frontend-backend integration
+- Phase 4: Documentation and testing
+
+---
+
+This project is being actively developed as part of my open-source and GSoC
+preparation journey.
